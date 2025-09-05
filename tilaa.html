@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilauslomake</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+    </style>
+</head>
+<body>
+    <h1><a href="index.html">Kahvila</a></h1>
+    <header>
+        <nav>
+            <a class="navi" href="menu.html">Menu</a>
+            <a class="navi" href="galleria.html">Kuvia</a>
+            <a class="navi" href="tilaa.html">Tilaa</a>
+            <a class="navi" href="yhteystiedot.html">Ota Yhteyttä</a>
+        </nav>
+    </header>
+    <main>
+        <div class="main-content">
+            <h2>Tilauslomake</h2>
+            <div class="orderform">
+                <label for="fname">Etunimi</label> 
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Sukunimi</label> 
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Sähköposti</label>
+                <input type="email" id="email" name="email"><br>
+                <p>Valitse tilaus</p>
+                <input type="radio" id="kakku" name="tilaus" value="Suklaakakku">
+                <label for="suklaakakku">Suklaakakku</label><br>
+                <input type="radio" id="kakku" name="tilaus" value="Mansikkakakku">
+                <label for="mansikkakakku">Mansikkakakku</label><br>
+                <input type="radio" id="kakku" name="tilaus" value="Tiikerikakku">
+                <label for="tiikerikakku">Tiikerikakku</label><br>
+                <input type="radio" id="kakku" name="tilaus" value="Juustokakku">
+                <label for="juustokakku">Juustokakku</label><br>
+                <p>Lisätietoja</p>
+                <textarea name="lisatietoja" rows="10" cols="30"></textarea><br>
+                <button type="submit">Lähetä</button>
+            </div>
+        </div> 
+    </main>
+</body>
+</html>

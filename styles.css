@@ -1,0 +1,169 @@
+:root{
+    --text-color: #422800;
+    --bg-color: #fbeee0;
+}
+
+body{
+    background-color: rgb(227, 66, 98);
+    background-image: url(assets/heart-07.png);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none !important;
+    color: #422800;
+}
+
+h1, h2, h3{
+    font-family: "Homemade Apple", cursive;
+    color: #422800;
+}
+
+nav a{
+    text-decoration-line: none;
+    margin: 20px;
+    padding: 10px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 2px var(--text-color) solid;
+    box-shadow: var(--text-color) 4px 4px 0 0;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+nav a:hover{
+    text-decoration-line: underline;
+    background-color: #fff;
+}
+
+button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.9em;
+    margin: 5px;
+    padding: 10px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 2px var(--text-color) solid;
+    box-shadow: var(--text-color) 4px 4px 0 0;
+    border-radius: 5px;
+}
+
+.main-content{
+    border-width: 9px;
+    border-style: solid;
+    border-image: url(assets/border.png) 9 fill round;
+    margin: auto;
+    margin-top: 5vh;
+    padding: 10px;
+    max-width: 100vh;
+    font-size: 1.25em;
+}
+
+.wrapper{
+    width: 100vh;
+    overflow: hidden;
+}
+
+.struudeli {
+    text-align: left;
+    float: left;
+    padding: 20px;
+    width: 25vh;
+}
+
+.struudeli img {
+    max-width: 25vh;
+}
+
+.specialties{
+    padding-left: 20vh;
+    max-width: 35vh;
+    overflow: hidden;
+}
+
+.menu {
+    overflow: hidden;
+    width: 40%;
+    font-size: 0.90em;
+}
+
+#ruoka{
+    float: left;
+    padding-left: 70px;
+}
+
+#juoma{
+    float: left;
+    padding-left: 20px;
+}
+
+.menu table {
+    border: 2px solid #faead8;
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: left;
+}
+
+.menu caption {
+    caption-side: top;
+    text-align: left;
+}
+
+.menu th {
+    border: 2px solid #faead8;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 5px;
+}
+
+.menu td {
+    border: 2px solid #faead8;
+    padding: 5px;
+}
+
+.menu tr:nth-child(even) td {
+    background-color: #fef9f3;
+    color: var(--text-color);
+}
+
+.menu tr:nth-child(odd) td {
+    background-color: #ffffff;
+    color: var(--text-color);
+}
+
+.gallery { 
+  display:flex;
+  flex-wrap:wrap;
+  width:100%; 
+  margin-left: 20px;
+}
+
+.gallery img {
+  width:200px;
+  height:150px; 
+  object-fit:cover;
+}
+
+.gallery > div {
+  width:200px; 
+  height:150px; 
+  margin-right:25px; 
+  margin-bottom:10px;
+}
+
+textarea{
+    background-color: var(--bg-color);
+}
+
+.map{
+    max-width: 35vh;
+    float: left;
+    overflow: hidden;
+}
